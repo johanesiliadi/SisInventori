@@ -1,0 +1,498 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 8pt Tahoma, sans-serif;
+	line-height: 1.5em;
+	background: #D5D5D5;
+}
+
+/*outer wrap*/
+#t_o {
+	width: 98%;
+	min-width: 98%;
+	margin: 10px auto;
+	display: table;
+}
+
+/* header */
+#t_h {
+	height: 80px;
+	background: #660000;
+	margin: 0 0px !important;
+	padding: 10px 0 0 0 !important;
+}
+
+
+/* middle content */
+#t_m {
+	margin: 0 0px;
+	padding:0px 15px 0px 15px !important;
+	background: #FFF; 
+}
+
+/* info line */
+#t_m .linfo { 
+	margin: 0px 0px 0px 0px!important; 
+	padding: 10px 0px 10px 0px!important; 
+	text-align: left;
+	color: #888; 
+}
+#t_m img {
+	vertical-align: bottom;
+}
+/* inner header */
+h2#ti_h { 
+	background: url(boxbg.jpg) top repeat-x;
+	margin: 0 0px 0 0px; 
+	padding: 0; 
+	padding-left: 10px; 
+	border-bottom: 1px solid #DDD;
+	font: 1.4em "Lucida Sans Unicode","Tahoma",Verdana,Helvetica; 
+	line-height: 24px;
+	letter-spacing: -1px; 
+	word-spacing: 0.1em; 
+	vertical-align: middle; 
+	color: #666; 
+}
+
+
+/* inner content */
+#ti_m { 
+	text-align: left;
+	padding: 0 0 0 0 !important;
+}
+#ti_m div#lo {float:right; margin: 0px 0px 0px !important; padding:0px 0px 0px 0px !important; width:330px; text-align:right; background:#FFF; color:#888;}
+
+#lo  dl{
+	height:75px !important;
+	margin:15px 0px 15px 0px !important;
+	padding:0 0 0 0 !important;
+}
+#ti_m .a1{
+	text-decoration:none; 
+	color:#990000;
+}
+#ti_m .a1:hover{
+	text-decoration:underline; 
+	color:#990000;
+}
+#ti_m .a2{
+	text-decoration:none;
+	color:#AAA;
+}
+#ti_m .a2:hover{
+	text-decoration:none; 
+	color:#660000;
+}
+#ti_m a{
+	text-decoration:none; 
+	color:#ffffff;
+}
+#ti_m a:hover{
+	text-decoration:none; 
+	color:#888;
+}
+#ti_m .active{
+	text-decoration:none; 
+	color:#888;
+}
+
+
+
+#ti_m #pagination a{
+	text-decoration:none; 
+    background: transparent;
+	width: 5px;
+	height: 5px;
+	padding: 0 0 0 0;
+}
+#ti_m #pagination strong{
+	text-decoration:none; 
+    background: transparent;
+	padding: 0 0 0 0;
+	width: 5px;
+	height: 5px;
+	color:#888;
+}
+
+#pagination a, #pagination strong {
+	 background: #000000;
+	 padding: 4px 7px;
+	 text-decoration: none;
+	border: 1px solid #cac9c9;
+	color: #000000;
+	font-size: 13px;
+	overflow: hidden;
+	}
+
+	#pagination strong, #pagination a:hover {
+	 font-weight: normal;
+	 background: #000000;
+	}		
+
+#scroll {
+	margin:0px 0px 0px 0px !important;
+	width: 930px;
+	height: 185px;
+	background:#fff;
+	padding: 0px 0px 0px 0px !important;
+	overflow: auto;
+}
+
+#note{
+	margin:10px 0px 0px 0px !important;
+	width: 100%;
+	height: 200px;
+	background:#FBFBFB;
+	color:#AAA;
+	padding: 0px 0px 0px 0px !important;
+}
+
+/* footer */
+#foot {
+	text-align:right;
+	padding: 5px 10px 10px 10px !important;
+	margin: 0px 0px 10px 0px !important;
+	border-top: 1px solid #AAA;
+	color: #AAA; 
+	height:15px;
+	background:#fff;
+}
+
+
+/* general */
+.clear { clear: both; }
+.le { text-align: left !important; }
+
+.ri {padding: 5px 5px 5px 10px !important; text-align: right !important; background:#D8DEF0;}
+/*.ri { text-align: right !important; background:#F7FBFF; }*/
+.ce { text-align: center !important; }
+.form{padding: 5px 10px 5px 5px !important;background:#e8e8e8; }
+
+/* BEGIN NIFTYCORNERS {{{ */
+b.niftycorners,b.niftyfill{display:block}
+b.niftycorners *{display:block;height: 1px;line-height:1px;font-size: 1px;
+    overflow:hidden;border-style:solid;border-width: 0 1px;}
+/*normal*/
+b.r1{margin: 0 3px;border-width: 0 2px}
+b.r2{margin: 0 2px}
+b.r3{margin: 0 1px}
+b.r4{height: 2px}
+b.rb1{margin: 0 8px;border-width:0 2px}
+b.rb2{margin: 0 6px;border-width:0 2px}
+b.rb3{margin: 0 5px}
+b.rb4{margin: 0 4px}
+b.rb5{margin: 0 3px}
+b.rb6{margin: 0 2px}
+b.rb7{margin: 0 1px;height:2px}
+b.rb8{margin: 0;height:2px}
+b.rs1{margin: 0 1px}
+/*transparent inside*/
+b.t1{border-width: 0 5px}
+b.t2{border-width: 0 3px}
+b.t3{border-width: 0 2px}
+b.t4{height: 2px}
+b.tb1{border-width: 0 10px}
+b.tb2{border-width: 0 8px}
+b.tb3{border-width: 0 6px}
+b.tb4{border-width: 0 5px}
+b.tb5{border-width: 0 4px}
+b.tb6{border-width: 0 3px}
+b.tb7{border-width: 0 2px;height:2px}
+b.tb8{border-width: 0 1px;height:2px}
+b.ts1{border-width: 0 2px}
+/* }}} END NIFTYCORNERS */
+
+dl{
+	height:20px !important;
+	margin:10px 10px 10px 10px !important;
+}
+
+
+fieldset{
+	border: 1px solid #CCC;
+	padding:10px 10px 10px 10px;
+	border-color:#AAA;
+}
+legend{	
+	color: #660000;
+	margin:0 0px 0px 0px !important;
+}
+input{
+	font: 8pt Tahoma, sans-serif; 
+}
+.font{
+	border: 1px solid #AAA;
+	background:#FFF; 
+}
+select{	
+	font: 8pt Tahoma, sans-serif; 
+}
+a img{
+	border:0;
+	padding:0;
+}
+.read{
+	border: 1px solid #AAA;
+	background:#FBFBFB;
+	color:#AAA;
+}
+
+.tabelform {
+	border:0; 
+	padding:10px 10px 10px 0px;
+	margin:10px 10px 10px 10px;
+}
+.tabelform td{
+	padding:5px 0px;
+}
+.tabelform dt { color: #888; padding-left:5px;}
+.tabelform dd { margin-left: 0; padding-left: 100px;padding-right:5px; text-align:left; padding-bottom:5px; color: #000; border-bottom: 1px solid #CCC; }
+
+.tabel2 {
+	margin:0 0px 0 0px !important;
+	border:0;
+	padding:0px 0px 0px 0px!important;
+}
+.tabel2 tr{
+	margin:0px 0px;
+}
+.tabel2 td{
+	padding:3px 2px 3px 2px;
+}
+.header{
+	color:#FFFFFF;
+	text-align:center;
+	background:#601313;
+}
+.box{
+	padding:0 10px 0 10px;
+}
+.tab { 
+	width:925px; height:53px;
+}
+.tab td { 
+	vertical-align: top; 
+	padding: 8px 20px 10px 15px; 
+	text-align:center; 
+}
+.tabindex { 
+	text-align:left;
+	color:#666;
+}
+.tabindex td { 
+	vertical-align: top; 
+	padding: 3px 10px; 
+}
+
+.button {
+	margin:20px 0px 10px 0px;
+}
+
+.garis{
+border-top:1px solid #CCC;
+}
+input.buttonDelete
+{
+	background: url("../img/delete.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+
+input.buttonConfirm
+{
+	background: url("../img/confirm.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonAdd
+{
+	background: url("../img/add.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonOK
+{
+	background: url("../img/ok.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonApp
+{
+	background: url("../img/app.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}input.buttonReject
+{
+	background: url("../img/reject.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonCancel
+{
+	background: url("../img/cancel.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+
+input.buttonEdit
+{
+	background: url("../img/edit.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+
+input.buttonLogin
+{
+	background: url("../img/login.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+
+input.buttonReset
+{
+	background: url("../img/reset.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+
+input.buttonShow
+{
+	background: url("../img/show.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+
+input.buttonShowAll
+{
+	background: url("../img/showall.gif");
+	height:26px;
+	width:70px;
+	border:none;
+}
+
+input.buttonEditPassword
+{
+	background: url("../img/editpassword.gif");
+	height:26px;
+	width:100px;
+	border:none;
+}
+
+input.buttonBankAcc
+{
+	background: url("..img/bankacc.gif");
+	height:26px;
+	width:150px;
+	border:none;
+}
+input.buttonHoldingAcc
+{
+	background: url("../img/holdingacc.gif");
+	height:26px;
+	width:150px;
+	border:none;
+}
+input.buttonGenerate
+{
+	background: url("../img/generate.gif");
+	height:26px;
+	width:75px;
+	border:none;
+}
+input.buttonSubmit
+{
+	background: url("../img/submit.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonUpload
+{
+	background: url("../img/upload.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonBack
+{
+	background: url("../img/back.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonDetail
+{
+	background: url("../img/showdetail.gif");
+	height:26px;
+	width:90px;
+	border:none;
+}
+input.buttonPay
+{
+	background: url("../img/pay.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonFee
+{
+	background: url("../img/fee.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonConfirmEdit
+{
+	background: url("../img/doc.gif");
+	height:25px;
+	width:25px;
+	border:none;
+}
+input.buttonApprove
+{
+	background: url("../img/approve.gif");
+	height:20px;
+	width:25px;
+	border:none;
+}
+
+input.buttonLoad
+{
+	background: url("../img/load.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonBrowse
+{
+	background: url("../img/browse.gif");
+	height:26px;
+	width:65px;
+	border:none;
+}
+input.buttonGenReport
+{
+	background: url("../img/genreport.gif");
+	height:26px;
+	width:110px;
+	border:none;
+}
+input.buttonLiq
+{
+	background: url("../img/liquid.gif");
+	height:25px;
+	width:25px;
+	border:none;
+}
